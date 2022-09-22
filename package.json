@@ -1,0 +1,41 @@
+{
+  "name": "ajs5-2",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/xlahvcy78v0s84pq?svg=true)](https://ci.appveyor.com/project/89YAMAL/ajs5-1)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/89YAMAL/ajs5-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/89YAMAL/ajs5-2/issues"
+  },
+  "homepage": "https://github.com/89YAMAL/ajs5-2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babel-jest": "^26.0.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^26.0.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "core-js": "^3.25.2"
+  }
+}
